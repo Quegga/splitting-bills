@@ -13,19 +13,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        final Button button = findViewById(R.id.button);
-        final Button button2 = findViewById(R.id.button2);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                if (button2.isEnabled()) {
-                    button2.setEnabled(false);
-                } else {
-                    button2.setEnabled(true);
-                }
-            }
-        });
-
-
     }
 }
